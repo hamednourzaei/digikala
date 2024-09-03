@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+@font-face {
+  font-family: IranYekan;
+  src: url("../../font/fa/IranYekan/IRANYekanWeb.eot");
+  src: url("../../font/fa/IranYekan/IRANYekanWeb.ttf");
+  src: url("../../font/fa/IranYekan/IRANYekanWeb.woff");
+  src: url("../../font/fa/IranYekan/IRANYekanWeb.woff2");
+}
+
+:root {
+  --IranYekan: IranYekan;
+
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    box-shadow: inset 0 0 1px lightgray;
+    background-image: url("../../svg/previous.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .swiper-rtl .swiper-button-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    box-shadow: inset 0 0 1px lightgray;
+    background-image: url("../../svg/next.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    all: unset;
+  }
+  .swiper-button-next.swiper-button-disabled,
+  .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+  }
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+  width: inherit;
+  background-color: lightgray;
+}

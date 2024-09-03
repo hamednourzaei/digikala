@@ -1,0 +1,57 @@
+.amaze__category {
+  width: 100%;
+  height: 206px;
+  padding: 20px 0px;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cat__swiper__slide {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      padding: 9px 0;
+      margin-right: 8px;
+
+      .cat__swiper__image {
+        width: 90px;
+        height: 90px;
+        margin: 12px 8px;
+        img {
+          width: inherit;
+          height: inherit;
+        }
+      }
+      .cat__swiper__title {
+        font-family: var(--IranYekan);
+        font-size: 12px;
+        height: 30px;
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.first__slide {
+  font-weight: bold;
+  background-color: #f3ebf2;
+}

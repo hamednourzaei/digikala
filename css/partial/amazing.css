@@ -1,0 +1,153 @@
+.amazing {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+
+  .amazing__content {
+    width: 1335px;
+    height: inherit;
+    background-color: #ef394e;
+    padding: 20px 2px;
+    border-radius: 10px;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+
+      .swiper-slide-main {
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 10px;
+        align-items: center;
+      }
+
+      .swiper-slide-product {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 15px 0;
+        row-gap: 13px;
+
+        .swiper__slide__product__image {
+          width: 150px;
+          height: 150px;
+        }
+
+        .swiper__slide__product__discount {
+          display: flex;
+          flex-flow: row-reverse wrap;
+          justify-content: space-between;
+          padding: 0 5px;
+
+          .discount__price {
+            font-family: var(--IranYekan);
+            display: flex;
+            flex-flow: row-reverse;
+            column-gap: 5px;
+            .discount__price__toman {
+              width: 16px;
+              height: 16px;
+            }
+          }
+
+          .discount__percentage {
+            font-family: var(--IranYekan);
+            width: 35px;
+            height: 20px;
+            border-radius: 15px;
+            background-color: #d32f2f;
+            color: whitesmoke;
+            font-size: 12px;
+          }
+        }
+        .real__price {
+          font-family: var(--IranYekan);
+          color: lightgray;
+          text-decoration: line-through;
+          font-size: 12px;
+          display: flex;
+          justify-content: flex-end;
+          padding-left: 18px;
+        }
+      }
+    }
+
+    .swiper-slide-more {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      row-gap: 15px;
+
+      .swiper-slide-more-icon {
+        width: 52px;
+        height: 52px;
+        border-radius: 52px;
+        border: 2px solid #19bfd3;
+      }
+
+      .swiper-slide-more-text {
+        text-decoration: none;
+        font-family: var(--IranYekan);
+        font-size: 14px;
+        color: rgb(99, 99, 99);
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.myAmazing__main__slide {
+  background-color: #ef394e !important;
+
+  .item__image1 {
+    width: 92px !important;
+    height: 77px !important;
+    padding: 7px;
+  }
+
+  .item__image2 {
+    width: 145px !important;
+    height: 115px !important;
+    padding: 15px;
+  }
+
+  .item__link {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    font-family: var(--IranYekan);
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+
+    .item__image3 {
+      width: 15px !important;
+      height: 8.5px !important;
+    }
+  }
+}
+
+.top__bottom__right {
+  border-radius: 0 10px 10px 0;
+}
+
+.top__bottom__left {
+  border-radius: 10px 0 0 10px;
+}

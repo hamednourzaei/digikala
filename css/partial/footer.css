@@ -1,0 +1,343 @@
+.backup {
+  width: 100%;
+  height: 260px;
+
+  .backup__header {
+    width: inherit;
+    height: 130px;
+    padding: 0 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    border-top: 1px solid #d3d3d3aa;
+    .backup__header__top {
+      width: inherit;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+      flex-flow: row wrap;
+      .backup__logo {
+        width: 113px;
+        height: 30px;
+      }
+
+      .go__to__header {
+        width: 138px;
+        height: 40px;
+        font-family: var(--IranYekan);
+        font-size: 12px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        color: rgb(122, 121, 121);
+        border: 1px solid #d3d3d3aa;
+        border-radius: 7px;
+      }
+    }
+    .backup__description {
+      font-family: var(--IranYekan);
+      font-size: 12px;
+    }
+
+    .small__divider {
+      display: inline-block;
+      width: 2px;
+      height: 10px;
+      background-color: rgb(167, 166, 166);
+      margin: 0 15px;
+    }
+  }
+
+  .backup__features {
+    width: 1335px;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 20px;
+
+    .backup__data {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      row-gap: 3px;
+
+      img {
+        width: 56px;
+        height: 56px;
+      }
+      .backup__text {
+        font-family: var(--IranYekan);
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+.footer__menu {
+  width: 100%;
+  height: 320px;
+
+  font-family: var(--IranYekan);
+  display: flex;
+  margin-top: 50px;
+  padding: 0 20px;
+
+  .footer__menu__data {
+    width: 410px;
+    display: flex;
+    flex-flow: column wrap;
+
+    .footer__menu__title {
+      padding: 10px 0;
+      color: rgb(50, 50, 50);
+    }
+
+    .footer__menu__link {
+      text-decoration: none;
+      font-size: 14px;
+      padding: 10px 0;
+      color: rgb(131, 131, 131);
+    }
+  }
+
+  .footer__menu__left {
+    width: 256px;
+    height: inherit;
+
+    .footer__menu__left__contact {
+      width: inherit;
+      height: 85px;
+      .footer__menu__left__title {
+        padding: 15px 0;
+        color: rgb(50, 50, 50);
+      }
+
+      .footer__menu__left__platform {
+        width: inherit;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding: 2px;
+      }
+    }
+
+    .footer__menu__left__email {
+      height: 160px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+
+      .footer__menu__left__title {
+        padding-bottom: 20px;
+      }
+
+      input[type="email"] {
+        width: 192px;
+        height: 48px;
+        background-color: #f0f0f1;
+        border: unset;
+        outline: unset;
+        padding: 20px;
+        font-family: var(--IranYekan);
+        font-size: 15px;
+        color: rgb(75, 74, 74);
+        border-radius: 7px;
+
+        &::placeholder {
+          color: rgb(149, 148, 148);
+        }
+
+        &:valid ~ .footer__menu__left__button {
+          background-color: #ef4056;
+          cursor: pointer;
+        }
+      }
+
+      button[type="button"] {
+        display: inline-block;
+        width: 52px;
+        height: 48px;
+        border: unset;
+        outline: unset;
+        background-color: #dfdfe0;
+        font-family: var(--IranYekan);
+        color: whitesmoke;
+        border-radius: 7px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.app {
+  width: 100%;
+  height: 110px;
+
+  .app__content {
+    width: 1477px;
+    height: 75px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: #3c4b6d;
+    display: flex;
+    align-items: center;
+
+    .app__logo {
+      width: 30%;
+      height: inherit;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      img {
+        width: 44px;
+        height: 44px;
+      }
+      .app__title {
+        font-family: var(--IranYekan);
+        color: whitesmoke;
+        font-size: 20px;
+      }
+    }
+
+    .app__download {
+      width: 70%;
+      height: inherit;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      column-gap: 15px;
+      padding: 10px;
+
+      .app__download__platform {
+        width: 60%;
+        height: inherit;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        column-gap: 15px;
+        padding: 10px;
+      }
+    }
+    .app__download__more {
+      width: 45px;
+      height: 45px;
+      background-color: whitesmoke;
+      border-radius: 5px;
+      margin-left: 20px;
+    }
+  }
+}
+
+.details {
+  width: 100%;
+  height: 225px;
+  border-top: 1px solid #dededeaa;
+  border-bottom: 1px solid #dededeaa;
+  padding: 30px 20px;
+  display: flex;
+
+  .details__text {
+    width: 75%;
+    height: 225px;
+    font-family: var(--IranYekan);
+
+    h1 {
+      font-size: 20px;
+      color: rgb(95, 95, 95);
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 25px;
+      padding: 7px 0;
+      color: gray;
+    }
+
+    h2 {
+      font-size: 14px;
+      color: rgb(95, 95, 95);
+    }
+
+    a {
+      text-decoration: none;
+      color: #19bfd3;
+    }
+
+    .read__more {
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+  }
+}
+
+.details__license {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+  .details__license__content {
+    width: 110px;
+    height: 110px;
+    border-radius: 7px;
+    border: 1px solid #d3d3d3aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 75px;
+      height: 75px;
+      object-fit: contain;
+    }
+  }
+}
+
+.copyright {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .copyright__text {
+    font-family: var(--IranYekan);
+    font-size: 10px;
+    color: gray;
+  }
+}
+
+.digi {
+  width: 100%;
+  height: 160px;
+  background-color: #f0f0f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+
+  .digi__data {
+    flex-basis: 180px;
+    flex-grow: 1;
+    border-left: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 5px;
+
+    img {
+      width: 90px;
+      height: 50px;
+      object-fit: contain;
+      margin: 10px auto;
+      display: block;
+      padding: 5px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.slider__top {
+  width: 100%;
+  height: 65px;
+  background-image: url("../../../svg/amaze/header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ef3e53;
+}
+

@@ -1,0 +1,106 @@
+.sale {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .sale__content {
+    width: 1335px;
+    height: 815px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3aa;
+
+    .sale__title {
+      width: inherit;
+      height: 75px;
+      text-align: center;
+      font-family: var(--IranYekan);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      font-size: 21px;
+    }
+
+    .sale__row {
+      width: inherit;
+      height: 240px;
+      display: flex;
+      border-bottom: 1px solid #e9e8e8aa;
+
+      .sale__product {
+        width: 220px;
+        height: 240px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        row-gap: 5px;
+        justify-content: center;
+        border-left: 1px solid #e9e8e8aa;
+
+        .sale__product__image {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+          img {
+            width: inherit;
+            height: inherit;
+          }
+        }
+
+        .sale__product__discount {
+          width: inherit;
+          height: 30px;
+          display: flex;
+          justify-content: space-between;
+          flex-flow: row-reverse wrap;
+          font-family: var(--IranYekan);
+          align-items: center;
+          padding: 0 10px;
+
+          .sale__product__price{
+            width: fit-content;
+            height: inherit;
+            display: flex;
+            flex-flow: row-reverse wrap;
+            align-items: center;
+            column-gap: 5px;
+            font-weight: bold;
+            .product__toman {
+                width: 16px;
+                height: 16px;
+              }
+
+          }
+
+          .product__percentage {
+            width: 35px;
+            height: 20px;
+            border-radius: 15px;
+            background-color: #d32f2f;
+            color: whitesmoke;
+            font-size: 12px;
+            text-align: center;
+          }
+        }
+      }
+      .product__real__price {
+        font-family: var(--IranYekan);
+        color: lightgray;
+        text-decoration: line-through;
+        font-size: 13px;
+        padding-left: 30px;
+
+      }
+    }
+  }
+}
+
+.border__remove__bottom{
+  border-bottom: unset !important;
+}
+
+.border__remove__left{
+  border-left: unset !important;
+}

@@ -1,0 +1,36 @@
+.tomorrow {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  .tomorrow__content {
+    width: 1485px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 16px 40px 12px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../../../svg/amaze/tomorrowpattern.svg") left center
+        no-repeat,
+      linear-gradient(
+        220deg,
+        rgba(179, 55, 70, 0.2) 0,
+        rgba(245, 245, 245, 0.908) 100%
+      );
+    .tomorrow__title {
+      display: flex;
+      flex-flow: column wrap;
+      font-family: var(--IranYekan);
+      font-size: 12px;
+      row-gap: 3px;
+      margin: 0px 20px;
+      img {
+        width: 206px;
+        height: 28px;
+      }
+    }
+  }
+}

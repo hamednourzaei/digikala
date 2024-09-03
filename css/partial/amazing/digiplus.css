@@ -1,0 +1,72 @@
+.digiplus {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 24px;
+
+  .digiplus__content {
+    width: 1485px;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: url("../../../svg/amaze/digiplusright.svg") right center
+        no-repeat,
+      url("../../../svg/amaze/digiplusleft.svg") left center no-repeat,
+      linear-gradient(274.36deg, #d7b8d2aa 10%, #f0f0f1aa 100%);
+    padding: 4px 28px 8px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .digiplus__membership {
+      font-family: var(--IranYekan);
+      color: #b12ba4;
+      .digiplus__membership__title {
+        font-weight: bold;
+        font-size: 17px;
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 8px;
+        margin-bottom: 4px;
+        height: 34px;
+        align-items: center;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .digiplus__timer {
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+        .digiplus__timer__clock {
+          width: 40px;
+          height: 40px;
+          background-color: white;
+          border-radius: 8px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: center;
+          .digiplus__timer__clock__number {
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .digiplus__timer__clock__unit {
+            font-size: 8px;
+          }
+        }
+        .digiplus__timer__text {
+          font-size: 12px;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          column-gap: 5px;
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+}

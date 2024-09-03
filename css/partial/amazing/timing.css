@@ -1,0 +1,57 @@
+.timing {
+  width: 100%;
+  height: 460px;
+
+  .timing__content {
+    width: 1485px;
+    height: 460px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    padding-top: 8px;
+
+    .timing__title {
+      padding: 12px 20px;
+      .timing__title__data {
+        font-family: var(--IranYekan);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        height: 34px;
+      }
+      .timing__divider {
+        width: 70px;
+        height: 2px;
+        background-color: red;
+        margin-top: 8px;
+      }
+    }
+
+    .swiper {
+      width: 100%;
+      height: 84%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #ececedaa;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.market__amazing__resize {
+  width: 1485px !important;
+}

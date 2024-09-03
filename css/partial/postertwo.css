@@ -1,0 +1,24 @@
+.second__poster {
+  width: 100%;
+  height: 265px;
+  display: flex;
+  justify-content: center;
+
+  .second__poster__content {
+    width: 1335px;
+    height: 265px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .second__poster__image {
+      width: 660px;
+      height: inherit;
+      img {
+        width: inherit;
+        height: inherit;
+        border-radius: 15px;
+      }
+    }
+  }
+}

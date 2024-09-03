@@ -1,0 +1,145 @@
+.incredible {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 24px;
+  background-color: #ef3b50;
+  padding: 28px 0 28px 20px;
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    .start__slide {
+      width: inherit;
+      height: inherit;
+      background-color: #ef3b50;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column wrap;
+      row-gap: 12px;
+      .title {
+        width: 120px;
+        height: 120px;
+      }
+      .picture {
+        width: 145px;
+        height: 145px;
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.incredible__swiper__slide {
+  width: inherit;
+  height: inherit;
+  padding: 12px 8px;
+  .incredible__swiper__logo {
+    margin-bottom: 4px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    img {
+      width: 123px !important;
+      height: 14px !important;
+    }
+  }
+  .incredible__swiper__product {
+    font-family: var(--IranYekan), sans-serif;
+    .incredible__product__image {
+      margin: 0 13px;
+      margin-bottom: 8px;
+      img {
+        width: 150px !important;
+        height: 150px !important;
+      }
+    }
+    .incredible__product__name {
+      font-size: 12px;
+      text-align: right;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: bold;
+      line-height: 25px;
+      height: 52px;
+    }
+    .incredible__product__special {
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+      column-gap: 4px;
+      margin-bottom: 4px;
+      height: 24px;
+      img {
+        width: 18px !important;
+        height: 18px !important;
+      }
+    }
+
+    .incredible__product__remain {
+      font-size: 11px;
+      margin-bottom: 4px;
+      height: 24px;
+      color: red;
+      text-align: right;
+      line-height: 24px;
+    }
+    .incredible__product__discount {
+      display: flex;
+      justify-content: space-between;
+      height: 34px;
+      align-items: center;
+      .incredible__product__percent {
+        width: 34px;
+        height: 20px;
+        padding: 0 4px;
+        color: white;
+        background-color: #d32f2f;
+        font-size: 12px;
+        border-radius: 20px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .incredible__product__price {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+    .incredible__product__real__price {
+      text-decoration: line-through;
+      font-size: 12px;
+      text-align: left;
+      padding-left: 20px;
+      height: 26px;
+      line-height: 26px;
+      color: #808080aa;
+    }
+  }
+}

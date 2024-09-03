@@ -1,0 +1,65 @@
+.brand {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .brand__content {
+    width: 1335px;
+    height: 225px;
+    border-radius: 15px;
+    border: 1px solid #d3d3d3aa;
+
+    .brand__title {
+      width: inherit;
+      height: 70px;
+      font-family: var(--IranYekan);
+      text-align: center;
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 60%;
+      background-color: #ebe8e8aa;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .swiper__brand__slide {
+        width: 110px;
+        height: 110px;
+        img {
+          width: inherit;
+          height: inherit;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .brand__divider {
+    display: inline-block;
+    width: 2px;
+    height: 35px;
+    background-color: aqua;
+  }
+}

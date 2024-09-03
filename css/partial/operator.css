@@ -1,0 +1,28 @@
+.operator {
+  width: 48px;
+  height: 48px;
+  background-color: #ef4056;
+  border-radius: 50%;
+  display: flex;
+  padding: 12px;
+  position: fixed;
+  bottom: 32px;
+  right: 50px;
+  z-index: 6;
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    visibility: hidden;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:before {
+    content: url("../../svg/operator.svg");
+    visibility: visible;
+    width: 24px;
+    height: 24px;
+  }
+  input[type="checkbox"]:checked:before {
+    content: url("../../svg/close.svg");
+  }
+}

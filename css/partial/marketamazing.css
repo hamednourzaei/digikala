@@ -1,0 +1,118 @@
+.market__amazing {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .market__amazing__content {
+    width: 1335px;
+    height: 110px;
+    border-radius: 15px;
+    background-color: #ebeeed;
+    display: flex;
+    flex-flow: row wrap;
+
+    .market__amazing__right {
+      width: 40%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 20px;
+
+      .market__basket {
+        width: 66px;
+        height: 62px;
+      }
+
+      .market__title {
+        width: 250px;
+        height: 28px;
+      }
+
+      .market__discount {
+        width: 20%;
+        height: 25px;
+        font-family: var(--IranYekan);
+        font-size: 14px;
+        background-color: #029a49;
+        color: whitesmoke;
+        border-radius: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0 7px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.market__amazing__products {
+  width: 60%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
+  padding-left: 50px;
+  background-image: url("../../svg/marketamazing/pattern.svg");
+  background-repeat: no-repeat;
+  .market__amazing__product {
+    position: relative;
+    .market__amazing__product__image {
+      width: 70px;
+      height: 70px;
+      background-color: #fefefe;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 58px;
+        height: 58px;
+        border-radius: 100%;
+      }
+    }
+
+    .market__image__product__percent {
+      font-family: var(--IranYekan);
+      width: 35px;
+      height: 20px;
+      border-radius: 15px;
+      background-color: #d32f2f;
+      color: whitesmoke;
+      font-size: 12px;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      line-height: 20px;
+      font-weight: bold;
+    }
+  }
+  .market__amazing__more {
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    font-family: var(--IranYekan);
+    color: #029a49;
+    font-size: 12px;
+    background-color: #fefefe;
+    border-radius: 25px;
+    font-weight: bold;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.market__amazing__more__red {
+  color: #ef394e !important;
+}
